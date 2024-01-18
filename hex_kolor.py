@@ -1,13 +1,22 @@
 import tkinter as tk
 from tkinter import colorchooser
 
+class Color:
+    def __init__(self, red, green, blue):
+        self.red = min(max(red, 0), 255)
+        self.green = min(max(green, 0), 255)
+        self.blue = min(max(blue, 0), 255)
+
+    def to_hex(self):
+        return f"#{self.red:02X}{self.green:02X}{self.blue:02X}"
+
 class ColorPaletteApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Hex Kolor 1.0 by Swir")
         self.root.configure(bg="#F0F0F0")  # Tło programu
 
-        self.current_color = "#000000"  # Domyślny kolor
+        self.current_color = Color(0, 0, 0)  # Domyślny kolor
 
         self.create_widgets()
 
@@ -54,14 +63,12 @@ class ColorPaletteApp:
         return entry
 
     def update_color(self):
-        red = self.red_slider.get()
-        green = self.green_slider.get()
-        blue = self.blue_slider.get()
-        hex_color = f"#{red:02X}{green:02X}{blue:02X}"
+        color = Color(self.red_slider.get(), self.green_slider.get(), self.blue_slider.get())
+        hex_color = color.to_hex()
 
         self.color_display.config(bg=hex_color)
         self.color_label.config(text=f"Aktualny kolor: {hex_color}")
-        self.current_color = hex_color
+        self.current_color = color
 
     def choose_color(self):
         color = colorchooser.askcolor()[1]
@@ -71,18 +78,20 @@ class ColorPaletteApp:
             self.blue_slider.set(int(color[5:], 16))
             self.update_color()
 
+    def is_valid_hex(self, hex_code):
+        return len(hex_code) == 7 and hex_code[0] == "#" and all(c.isdigit() or c.upper() in "ABCDEF" for c in hex_code[1:])
+
     def manual_update_color(self):
         hex_code = self.manual_entry.get()
-        try:
+        if self.is_valid_hex(hex_code):
+            color = Color(int(hex_code[1:3], 16), int(hex_code[3:5], 16), int(hex_code[5:], 16))
             self.color_display.config(bg=hex_code)
             self.color_label.config(text=f"Aktualny kolor: {hex_code}")
-            self.current_color = hex_code
-        except:
-            pass
+            self.current_color = color
 
     def copy_color_code(self):
         self.root.clipboard_clear()
-        self.root.clipboard_append(self.current_color)
+        self.root.clipboard_append(self.current_color.to_hex())
         self.root.update()
 
 if __name__ == "__main__":
