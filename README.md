@@ -1,8 +1,6 @@
- # program designed to create your own hex color composition
- 
- use exe or change py ;)
+# Hex color generator
 
+program designed to create your own hex color composition
 
-For all my programs to work, you need to install libraries requirements
-
-you can do it quickly with a command pip install -r requirements.txt
+## Image
+![hexkolor](https://images90.fotosik.pl/703/278a375273076133gen.png)
