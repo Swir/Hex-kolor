@@ -1,61 +1,78 @@
 <div align="center">
 
-# 🎨 HEX Color Tool / HEX Kolor
+# 🎨 HEX Color Tool
 
-**Simple RGB ↔ HEX desktop color utility by Swir**  
-**Proste desktopowe narzędzie RGB ↔ HEX autorstwa Swir**
+### RGB ↔ HEX Color Converter & Desktop Color Picker
+
+**Python • Tkinter • Live Preview • Clipboard • EN / PL**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
-![Author](https://img.shields.io/badge/Author-Swir-ff4fa3)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
+![Colors](https://img.shields.io/badge/Tool-RGB%20%E2%86%94%20HEX-ff5722)
+![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20PL-ff4fa3)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## 🚀 About
 
-HEX Color Tool is a small graphical utility for creating, previewing and copying colors. RGB sliders and the system color picker make it useful when working on websites, desktop interfaces or other visual projects.
+**HEX Color Tool** is a lightweight desktop utility for creating, previewing and copying colors while working with RGB and HEX values. Use sliders, type a HEX code or open the system color picker and immediately see the result.
 
-### ✨ Features
-- RGB sliders (0–255)
-- automatic RGB-to-HEX conversion
-- manual HEX input
-- system color picker
-- live color preview
-- copy color code to clipboard
-- separate Polish and English scripts
+It is useful for developers and designers searching for an **RGB to HEX converter**, **HEX color picker**, **Python color tool**, **Tkinter color picker** or a small desktop helper for web/UI work.
 
-### 🚀 Run
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🎚️ RGB sliders | Adjust red, green and blue from 0–255 |
+| #️⃣ RGB → HEX | Automatic color-code conversion |
+| ✍️ Manual HEX | Enter a HEX color directly |
+| 🎨 System picker | Open the native color selection dialog |
+| 👁️ Live preview | See the selected color immediately |
+| 📋 Clipboard | Copy the generated color code |
+| 🌍 EN / PL | Separate English and Polish application scripts |
+
+---
+
+## 📦 Installation
 
 ```bash
 git clone https://github.com/Swir/Hex-kolor.git
 cd Hex-kolor
 pip install -r requirements.txt
+```
+
+English:
+
+```bash
 python "Hex kolor English.py"
+```
+
+Polish:
+
+```bash
+python hex_kolor.py
 ```
 
 ---
 
-## 🇵🇱 Polski
+## 🔍 Discoverability
 
-HEX Kolor to niewielkie graficzne narzędzie do tworzenia, podglądania i kopiowania kolorów. Suwaki RGB i systemowy wybór koloru ułatwiają pracę nad stronami WWW, GUI i innymi projektami graficznymi.
+`rgb to hex converter` • `hex color picker` • `python color picker` • `tkinter color tool` • `hex code generator` • `desktop color picker` • `rgb color converter` • `web design color tool`
 
-### ✨ Funkcje
-- suwaki RGB 0–255
-- automatyczna konwersja RGB → HEX
-- ręczne wpisywanie kodu HEX
-- systemowy selektor kolorów
-- podgląd koloru na żywo
-- kopiowanie kodu koloru
-- polska i angielska wersja programu
+---
 
-### 🚀 Uruchomienie
+## 👨‍💻 Author
 
-```bash
-pip install -r requirements.txt
-python hex_kolor.py
-```
+Developed by **Swir** — [@Swir](https://github.com/Swir)
 
-## 👤 Author / Autor
-Developed by **Swir**.
+<div align="center">
+
+### 🎨 Pick it • Preview it • Copy it
+
+⭐ **Star the repository if it helps your design workflow!**
+
+</div>
