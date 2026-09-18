@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">HEX Color Tool icon</title><desc id="desc">Four color tiles and a HEX label in the SWIR electric-blue palette.</desc>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="#07111C" stroke="#62E5FF" stroke-width="2"/>
+  <rect x="42" y="42" width="64" height="64" rx="13" fill="#0088FF"/><rect x="118" y="42" width="64" height="64" rx="13" fill="#62E5FF"/>
+  <rect x="42" y="118" width="64" height="64" rx="13" fill="#F4FAFF"/><rect x="118" y="118" width="64" height="64" rx="13" fill="#0B2035" stroke="#62E5FF" stroke-width="3"/>
+  <text x="128" y="220" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#62E5FF">#RRGGBB</text>
+</svg>
