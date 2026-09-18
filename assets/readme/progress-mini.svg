@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-labelledby="title desc">
+  <title id="title">HEX Color Tool roadmap progress</title><desc id="desc">Roadmap progress is N/A because no canonical measurable roadmap exists.</desc>
+  <rect x="1" y="1" width="898" height="70" rx="18" fill="#02050A" stroke="#62E5FF" stroke-opacity="0.22"/>
+  <text x="24" y="27" fill="#62E5FF" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">PRODUCT ROADMAP</text>
+  <text x="24" y="53" fill="#F4FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="800">N/A</text>
+  <rect x="170" y="24" width="700" height="20" rx="10" fill="#08131F"/>
+  <text x="870" y="59" text-anchor="end" fill="#8DA8B8" font-family="Segoe UI,Arial,sans-serif" font-size="12">No canonical checklist</text>
+</svg>

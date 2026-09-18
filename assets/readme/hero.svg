@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">HEX Color Tool — SWIR project</title>
+  <desc id="desc">Dark electric-blue banner for a bilingual RGB and HEX desktop color utility.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02050A"/><stop offset="0.55" stop-color="#07111C"/><stop offset="1" stop-color="#02050A"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0088FF"/><stop offset="0.5" stop-color="#62E5FF"/><stop offset="1" stop-color="#0088FF"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#62E5FF" stroke-opacity="0.055"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="26" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="318" rx="25" fill="none" stroke="#62E5FF" stroke-opacity="0.25"/><rect width="1200" height="320" rx="26" fill="url(#grid)"/>
+  <path d="M0 260C180 220 270 300 440 264S735 225 900 257S1080 290 1200 246" fill="none" stroke="url(#cyan)" stroke-opacity="0.24" stroke-width="2"/>
+  <g transform="translate(66 69)"><rect width="168" height="168" rx="34" fill="#07111C" stroke="#62E5FF" stroke-opacity="0.5"/><rect x="30" y="30" width="48" height="48" rx="10" fill="#0088FF"/><rect x="90" y="30" width="48" height="48" rx="10" fill="#62E5FF"/><rect x="30" y="90" width="48" height="48" rx="10" fill="#F4FAFF"/><rect x="90" y="90" width="48" height="48" rx="10" fill="#0B2035" stroke="#62E5FF" stroke-width="2"/><text x="84" y="160" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#62E5FF">#RRGGBB</text></g>
+  <text x="270" y="70" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4" fill="#62E5FF">SWIR PROJECT</text>
+  <text x="270" y="145" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" fill="#F4FAFF">HEX COLOR TOOL</text>
+  <text x="272" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="500" fill="#B8D2E0">RGB sliders, HEX input, preview and clipboard.</text>
+  <text x="272" y="232" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="650" letter-spacing="1.5" fill="#62E5FF">DESKTOP UTILITY  •  PYTHON / TKINTER  •  EN + PL</text>
+</svg>
