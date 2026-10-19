@@ -1,1 +1,1 @@
-tkinter
+# Uses the Python standard library; Tkinter must be included with Python.

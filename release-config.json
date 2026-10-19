@@ -1,0 +1,16 @@
+{
+  "title": "HEX Color Tool",
+  "package": "Hex-Color",
+  "readme": "README.md",
+  "applications": [
+    {
+      "name": "Hex-Color-PL",
+      "entry": "hex_kolor.py"
+    },
+    {
+      "name": "Hex-Color-EN",
+      "entry": "Hex kolor English.py"
+    }
+  ],
+  "dependencies": []
+}
