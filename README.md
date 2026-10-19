@@ -21,6 +21,12 @@
 
 </div>
 
+## 📸 Screenshot
+
+![Hex-kolor application screenshot](docs/screenshots/application.jpg)
+
+Initial color picker window on Windows.
+
 <p align="center">
   <img width="100%" src="assets/readme/progress-card.svg" alt="HEX Color Tool product roadmap progress — N/A because no canonical measurable roadmap exists" />
 </p>
